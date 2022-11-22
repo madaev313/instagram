@@ -1,0 +1,77 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "image": "https://s35764.pcdn.co/wp-content/uploads/2022/09/Featured-Image-70.jpg",
+      "likes": 1223,
+      "description": "КОГДА НАБОР НА ОБУЧЕНИЕ В UNICODE❓\uD83E\uDD14\n\nК счастью для нас, к сожалению для тех, кто не успел группа на BOOTCAMP с сентября на декабрь уже сформирована ✔️\n\nПодписывайтесь и следите за событиями, чтобы не упустить важное \uD83D\uDD25",
+      "comments": [
+        {
+          "id": 21,
+          "text": "Сколько стоит обучение?",
+          "user": {
+            "username": "madaev.763",
+            "profile_img": "https://fastly.4sqi.net/img/general/width960/166121837_hjhN_QKXUlYnHs2DlegwFhk2ESdi48i1IUB-1XRzImQ.jpg"
+          }
+        },
+        {
+          "id": 22,
+          "text": "Ответили в дайрект",
+          "user": [
+            {
+              "username": "askhab.us",
+              "profile_img": "https://i.scdn.co/image/ab67616d0000b27377308a8b6fe0925e78b73ec2"
+            }
+          ]
+        }
+      ],
+      "user": {
+        "username": "unicodebootcamp",
+        "profile_img": "https://lh3.googleusercontent.com/ogw/AOh-ky12LqC-YLK26sIoYQDYhN3-qwG9WsZH4bRj1XCB=s64-c-mo"
+      }
+    },
+    {
+      "id": 2,
+      "image": "http://blog.greggant.com/images/posts/2020-12-13-macbookair.jpg",
+      "description": "Самый, наверно, часто задаваемый вопрос, почему именно МАК?\n\nОн даёт вам прекрасную возможность, прийти в любую кофейню и быть нереально пафосным человеком, а без Мака, вы просто программист с ноутбуком.\n\nДругих, объективных причин я не вижу.",
+      "likes": 1345,
+      "comments": [
+        {
+          "id": 24,
+          "text": "Плагиат",
+          "user": {
+            "username": "abdul.mallk",
+            "profile_img": "https://pix10.agoda.net/hotelImages/283/2838308/2838308_17092617350056817195.jpg?ca=6&ce=1&s=1024x768"
+          }
+        }
+      ],
+      "user": {
+        "username": "unicodebootcamp",
+        "profile_img": "https://lh3.googleusercontent.com/ogw/AOh-ky12LqC-YLK26sIoYQDYhN3-qwG9WsZH4bRj1XCB=s64-c-mo"
+      }
+    },
+    {
+      "id": 3,
+      "image": "https://www.ziprecruiter.com/svc/fotomat/public-ziprecruiter/cms/1080066370SeniorWebDeveloper.jpg",
+      "description": "FRONTEND в 2022 году.\n\nНа данный момент это одна из самых востребованных областей программирования с впечатляющими перспективами. Чтобы понять масштаб, который охватывает frontend-разработка, стоит всего лишь понять, что все что вы видите своими глаза в интернете, то есть вся видимая часть, это входит в frontend-разработку.",
+      "comments": [
+        {
+          "id": 21,
+          "text": "Экран т1е п1елг ма 1отлахь",
+          "user": {
+            "username": "y.edilbiev",
+            "profile_img": "https://instastatistics.com/images/default_avatar.jpg"
+          }
+        }
+      ],
+      "user": {
+        "username": "unicodebootcamp",
+        "profile_img": "https://lh3.googleusercontent.com/ogw/AOh-ky12LqC-YLK26sIoYQDYhN3-qwG9WsZH4bRj1XCB=s64-c-mo"
+      }
+    }
+  ],
+  "profile": {
+    "username": "unicodebootcamp",
+    "profile_img": "https://lh3.googleusercontent.com/ogw/AOh-ky12LqC-YLK26sIoYQDYhN3-qwG9WsZH4bRj1XCB=s64-c-mo"
+  }
+}

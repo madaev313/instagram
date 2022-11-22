@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.backgraund {
+    background-color: #EFEFEF;
+    padding-top: 24px;
+}
+
+.common_block {
+    background-color: #fff;
+    width: 600px;
+    height: 850px;
+    margin: auto;
+}
+
+.link_block {
+height: 61px;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 580px;
+    margin: auto;
+}
+
+.profile_text {
+    margin-left: 14px;
+    margin-top: 20px;
+}
+
+.icon img {
+    width: 32px;
+    height: 32px;
+    margin-left: 20px;
+    margin-top: 14px;
+    border-radius: 50px;
+}
+
+.user {
+    display: flex;
+}
+
+.points {
+    margin-right: 24.5px;
+}
+
+.publications {
+    object-fit: fill;
+}
+
+.publications img {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    margin-top: 14px;
+}
+
+.saved {
+    margin-right: 20px;
+}
+
+.title {
+    margin-left: 20px;
+}
+
+.title img {
+    padding-left: 15px;
+}
+
+.new_title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+
+.likes {
+    margin-top: 5px;
+    margin-left: 35px;
+}
+
+.description {
+    margin-left: 35px;
+    margin-top: 5px;
+}
