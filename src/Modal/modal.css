@@ -1,0 +1,71 @@
+.modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.modal.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal_content {
+  border-radius: 12px;
+  background-color: white;
+  width: 850px;
+  height: 650px;
+}
+
+.modal_header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.modal_profile {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+  margin-left: 27px;
+}
+
+.modal_profile img {
+  width: 32px;
+  height: 32px;
+  border-radius: 18px;
+}
+
+.username {
+  margin-left: 10px;
+}
+
+.input_text textarea {
+  margin-top: 20px;
+  margin-left: 26px;
+  border: none;
+  outline: none;
+  resize: none;
+  height: 135px;
+}
+
+.modal_smiley img {
+  margin-left: 26px;
+}
+
+.url_text input {
+  width: 851px;
+  height: 50px;
+  outline: none;
+  padding-left: 24px;
+  border: none;
+}

@@ -4,8 +4,8 @@ import Content from "./Content/Content";
 function App() {
   return (
     <div>
-    <NawBar/>
-    <Content/>
+      <NawBar />
+      <Content />
     </div>
   );
 }

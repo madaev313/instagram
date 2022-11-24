@@ -11,15 +11,15 @@ const Content = () => {
   const profile = useSelector((state) => state.profile);
   const loading = useSelector((state) => state.loading);
   const posts = useSelector((state) => state.posts);
+
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(loadProfile());
     dispatch(loadPosts());
-  }, []);
+  }, [dispatch]);
   if (loading) {
     return <h1>loading</h1>;
   }
-  console.log(profile);
 
   return (
     <div className="backgraund">
@@ -46,7 +46,7 @@ const Content = () => {
                 <img src={save} alt="" />
               </div>
             </div>
-            <div className="likes">{item.likes} likes</div>
+            <div className="likes">{item.description} </div>
             <div className="description">{profile.username} {} </div>
           </div>
         </div>
