@@ -1,8 +1,10 @@
 import { fetchAPI } from "./api";
+import { suggestions } from "../consts";
 
 const initialState = {
   profile: {},
   posts: [],
+  suggestions,
   loading: false,
 };
 
@@ -14,15 +16,22 @@ export const reducer = (state = initialState, action) => {
       return { ...state, profile: action.payload };
     case "loadPosts":
       return { ...state, posts: action.payload };
-    
+
     case "update/posts":
-        return {...state, posts: state.posts.map(post => {
-            if(post.id === +action.payload.id){
-                return {...post, description: action.payload.description, image: action.payload.image}
-            }
-            return post
-        })} 
-    
+      return {
+        ...state,
+        posts: state.posts.map((post) => {
+          if (post.id === +action.payload.id) {
+            return {
+              ...post,
+              description: action.payload.description,
+              image: action.payload.image,
+            };
+          }
+          return post;
+        }),
+      };
+
     case "fulfilled":
       return { ...state, loading: false };
     default:

@@ -5,7 +5,8 @@ import heart from "../Assets/likes (2).svg";
 import comments from "../Assets/comments.svg";
 import airplane from "../Assets/share.svg";
 import save from "../Assets/save.svg";
-import "./content.css";
+import "./content.scss";
+import Suggestions from "../Suggestions/Suggestions";
 
 const Content = () => {
   const profile = useSelector((state) => state.profile);
@@ -22,35 +23,40 @@ const Content = () => {
   }
 
   return (
-    <div className="backgraund">
-      {posts.map((item) => (
-        <div className="common_block">
-          <div className="link_block">
-            <div className="icon">
-              <div className="user">
-                <img src={profile.profile_img} alt="" />
-                <div className="profile_text">{profile.username}</div>
+    <div className="background">
+      <div className="content">
+        <div>
+          {posts.map((item) => (
+            <div key={item.id} className="common_block">
+              <div className="link_block">
+                <div className="icon">
+                  <div className="user">
+                    <img src={profile.profile_img} alt="" />
+                    <div className="profile_text">{profile.username}</div>
+                  </div>
+                  <div className="points">...</div>
+                </div>
+                <div className="publications">
+                  <img src={item.image} alt="" />
+                </div>
+                <div className="new_title">
+                  <div className="icons">
+                    <img src={heart} alt="" />
+                    <img src={comments} alt="" />
+                    <img src={airplane} alt="" />
+                  </div>
+                  <div className="saved">
+                    <img src={save} alt="" />
+                  </div>
+                </div>
+                <div className="likes">{item.description} </div>
+                <div className="description">{profile.username} </div>
               </div>
-              <div className="points">...</div>
             </div>
-            <div className="publications">
-              <img src={item.image} alt="" />
-            </div>
-            <div className="new_title">
-              <div className="title">
-                <img src={heart} alt="" />
-                <img src={comments} alt="" />
-                <img src={airplane} alt="" />
-              </div>
-              <div className="saved">
-                <img src={save} alt="" />
-              </div>
-            </div>
-            <div className="likes">{item.description} </div>
-            <div className="description">{profile.username} {} </div>
-          </div>
+          ))}
         </div>
-      ))}
+        <Suggestions />
+      </div>
     </div>
   );
 };

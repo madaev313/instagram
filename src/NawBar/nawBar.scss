@@ -7,18 +7,17 @@
 .naw_bar {
   display: flex;
   justify-content: space-between;
-  width: 1000px;
+  width: 900px;
   margin: 20px auto;
+}
+.naw_bar img {
+  margin-top: 5px;
 }
 
 .header-icons img {
-  padding-left: 20px;
+  padding-left: 25px;
 }
 
-.number_one {
-  width: 257px;
-  height: 29px;
-}
 
 .naw_bar input {
   padding-left: 48px;
@@ -30,6 +29,9 @@
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  height: 60px;
   background: white;
   border: 1px solid #efefef;
   position: sticky;
